@@ -1,0 +1,49 @@
+.register{
+    display:flex;
+    height: 500px;
+    width: 500px;
+    background: #efefef;
+    border-radius: 5px;
+    border: 0;
+    margin: 10% 50%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.register input[type="text"]{
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+}
+.register input[type="password"]{
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+}
+.register input[type="submit"]{
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+
+
+    font-size: 20px;
+    width: 250px;
+    height: 60px;
+}
+
+
+.submit input[type="button"]{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+}

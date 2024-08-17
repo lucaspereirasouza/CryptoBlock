@@ -1,0 +1,144 @@
+.start-page{
+    display: flex;
+    flex-direction: row;
+}
+#video-header{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.start-page-conjunction{
+    position: relative;
+    width: 100vw;
+    left: -10px;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: auto;
+    z-index: -1;
+}
+
+.start-page-logo{
+    transition: 1s;
+    position: absolute;
+    flex: 1;
+    left: 75vw;
+    top: 20vh;
+    height: 40vh;
+    
+}
+.start-page-text{
+    flex:1;
+    left: 10vw;
+    top: 35vh;
+    position: absolute;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+.start-page-h2{
+    flex:1;
+    left: 10vw;
+    top: 40vh;
+    position: absolute;
+    color: whitesmoke;
+    transition: 1s;
+}
+
+.image-content{
+    margin-right: 35px;
+}
+
+.white{
+    background-color: rgb(192, 192, 192);
+}
+.gap{
+    position: relative;
+    width: 100vw;
+    height: 20px;
+}
+
+.what-is-all-this-about{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20%;
+    margin-right: 40px;
+    margin-bottom: 150px;
+}
+
+.text-content{
+    width: 500px;
+}
+.what-is-all-this-about{
+
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin-top: 70px;
+    margin-left: 20%;
+    margin-right: 40px;
+}
+
+.erc-content{
+    width: 500px;
+}
+.image-title{
+    transition: 1s;
+    width: 20vw;
+}
+
+
+
+.about-erc-20{
+    display: flex;
+    flex-direction: row;
+
+}
+.erc-text{
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+.ether-img{
+    width: 150px;
+    margin-left: 125px;
+}
+
+
+.bottom-page-gap{
+    margin-top: 250px;
+}
+
+h1{color: white;}
+h2{color: white;}
+span{color: white;}
+
+.documentation-link{
+    border-radius: 5px;
+    color: black;
+    background-color: yellow;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.documentation-link:hover{
+    background: #ffc400;
+}
+
+
+
+.getting-started{
+    display: flex;
+    flex-direction: column;
+}
+
+.getting-started{
+}
+
+
+
